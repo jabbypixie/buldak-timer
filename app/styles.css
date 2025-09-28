@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap");
+
+.background {
+  position: absolute;
+  width: 650px;
+  height: 812px;
+  left: 0px;
+  top: 0px;
+}
+
+.title {
+  /* Buldak Timer */
+
+  position: absolute;
+  width: 425px;
+  height: 84px;
+  left: 112px;
+  top: 44px;
+
+  font-family: "Pixelify Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 84px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.startBuldak {
+  /* image 1 */
+
+  position: absolute;
+  width: 286px;
+  height: 286px;
+  left: 182px;
+  top: 263px;
+
+  background: url(image.png);
+}
+
+.start {
+  /* Let’s cook! */
+
+  position: absolute;
+  width: 298px;
+  height: 66px;
+  left: 176px;
+  top: 549px;
+
+  font-family: "Pixelify Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 66px;
+  /* identical to box height */
+
+  color: #ff5470;
+}
+
+.close {
+  /* close 1 */
+
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 587px;
+  top: 20px;
+
+  background: url(close.png);
+}
+
+.startBuldak:hover {
+  /* buldak2 1 */
+
+  position: absolute;
+  width: 341px;
+  height: 341px;
+  left: 154px;
+  top: 228px;
+  cursor: pointer;
+
+  background: url(buldak3.png);
+}
