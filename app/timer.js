@@ -2,7 +2,7 @@ const timer = document.getElementById("timer");
 const start = document.getElementById("start");
 const giff = document.getElementById("giff");
 
-let timeleft = 2;
+let timeleft = 10;
 let interval;
 
 const startTimer = () => {
