@@ -1,5 +1,6 @@
 const timer = document.getElementById("timer");
 const start = document.getElementById("start");
+const giff = document.getElementById("giff");
 
 let timeleft = 3;
 let interval;
@@ -25,4 +26,12 @@ const updateTimer = () => {
     seconds.toString().padStart(2, "0");
 };
 
+const startGif = () => {
+  giff.src = "";
+  giff.classList.add("gif");
+  giff.src = "../assets/buldakGif.gif";
+  giff.classList.remove("nongif");
+};
+
 start.addEventListener("click", startTimer);
+start.addEventListener("click", startGif);

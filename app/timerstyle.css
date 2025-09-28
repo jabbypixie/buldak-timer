@@ -107,3 +107,15 @@
 
   background: url(buldakGif.png), url(buldakGif.png), url(buldakGif.png);
 }
+
+.nongif {
+  /* buldak3 3 */
+
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 211px;
+  top: 273px;
+
+  background: url(buldak3.png);
+}
