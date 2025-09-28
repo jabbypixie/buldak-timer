@@ -73,6 +73,7 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  cursor: pointer;
 
   color: #ff5470;
 }
@@ -118,4 +119,56 @@
   top: 273px;
 
   background: url(buldak3.png);
+}
+/* image 4 */
+.pixie1 {
+  position: absolute;
+  width: 70px;
+  height: 112px;
+  left: 95px;
+  top: 500px;
+
+  background: url(image.png);
+}
+
+/* image 5 */
+.pixie2 {
+  position: absolute;
+  width: 66px;
+  height: 106px;
+  left: 482px;
+  top: 450px;
+
+  background: url(image.png);
+}
+/* image 6 */
+.pixie3 {
+  position: absolute;
+  width: 55px;
+  height: 88px;
+  left: 137px;
+  top: 203px;
+
+  background: url(image.png);
+}
+
+/* image 7 */
+.pixie4 {
+  position: absolute;
+  width: 55px;
+  height: 88px;
+  left: 434px;
+  top: 262px;
+
+  background: url(image.png);
+}
+/* image 8 */
+.pixie5 {
+  position: absolute;
+  width: 55px;
+  height: 88px;
+  left: 500px;
+  top: 168px;
+
+  background: url(image.png);
 }

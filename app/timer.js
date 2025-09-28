@@ -2,7 +2,7 @@ const timer = document.getElementById("timer");
 const start = document.getElementById("start");
 const giff = document.getElementById("giff");
 
-let timeleft = 3;
+let timeleft = 2;
 let interval;
 
 const startTimer = () => {
@@ -12,6 +12,7 @@ const startTimer = () => {
 
     if (timeleft === 0) {
       clearInterval(interval);
+      window.location.href = "final.html";
     }
   }, 1000);
 };
@@ -35,3 +36,6 @@ const startGif = () => {
 
 start.addEventListener("click", startTimer);
 start.addEventListener("click", startGif);
+start.addEventListener("click", () => {
+  start.style.display = "none";
+});
